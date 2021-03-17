@@ -1,10 +1,13 @@
 {
   "name": "react-shop-cart",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple react shopping cart",
   "author": "Christian Ballester",
   "license": "MIT",
-  "repository": "https://github.com/kriztyahn/react-shopping-cart.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriztyahn/react-shopping-cart.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -65,5 +68,14 @@
     "postcss-url": "^8.0.0",
     "react-redux": "^7.0.2",
     "redux": "^4.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kriztyahn/react-shopping-cart/issues"
+  },
+  "homepage": "https://github.com/kriztyahn/react-shopping-cart#readme",
+  "keywords": [
+    "react",
+    "shopping",
+    "cart"
+  ]
 }
