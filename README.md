@@ -12,8 +12,9 @@ This package provides several components:
 
 **Meta**
 
-- **author**: Dennis Paler &lt;dtpaler@gmail.com>
+- **author**: Christian Ballester &lt;ballester_christian@yahoo.com>
 - **license**: MIT
+- ** based on Dennis Paler react-cart-component **
 
 #### Features
 
@@ -74,14 +75,14 @@ const products = [
     name: 'Flamboyant Pink Top',
     sku: 'kskskskks',
     price: 400.0,
-    image: 'https://colorlib.com/preview/theme/divisima/img/product/7.jpg' 
+    image: 'https://colorlib.com/preview/theme/divisima/img/product/7.jpg'
   },
   {
     id: 4,
     name: 'Flamboyant Pink Top',
     sku: 'kskskskks',
     price: 400.0,
-    image: 'https://colorlib.com/preview/theme/divisima/img/product/8.jpg' 
+    image: 'https://colorlib.com/preview/theme/divisima/img/product/8.jpg'
   },
 ];
 
@@ -151,5 +152,3 @@ Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 - `image` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** Path to main image. Required.
 
 ## License
-
-MIT © [Dennis Paler](https://github.com/akosidencio)
