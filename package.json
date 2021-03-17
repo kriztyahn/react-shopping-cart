@@ -4,7 +4,7 @@
   "description": "A react shopping cart components",
   "author": "Dennis Paler",
   "license": "MIT",
-  "repository": "https://github.com/akosidencio/react-cart-components.git",
+  "repository": "https://github.com/kriztyahn/react-shopping-cart.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
