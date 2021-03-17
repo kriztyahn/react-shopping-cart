@@ -1,8 +1,8 @@
 {
-  "name": "react-cart-components",
-  "version": "2.1.0",
-  "description": "A react shopping cart components",
-  "author": "Dennis Paler",
+  "name": "react-shop-cart",
+  "version": "1.0.0",
+  "description": "A simple react shopping cart",
+  "author": "Christian Ballester",
   "license": "MIT",
   "repository": "https://github.com/kriztyahn/react-shopping-cart.git",
   "main": "dist/index.js",
