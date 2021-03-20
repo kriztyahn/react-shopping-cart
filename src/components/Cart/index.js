@@ -71,10 +71,11 @@ export class Cart extends Component {
     cartProducts &&
       cartProducts.forEach(cp => {
         if (cp.id === product.id) {
-          cp.quantity += product.quantity;
+          cp.quantity = parseInt(cp.quantity) + parseInt(product.quantity);
           productAlreadyInCart = true;
         }
       });
+
     if (!productAlreadyInCart) {
       cartProducts.push(product);
     }

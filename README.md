@@ -23,13 +23,13 @@ This package provides several components:
 
 ## Demo
 
-demo: [`https://react-cart-components-demo.herokuapp.com/`](https://react-cart-components-demo.herokuapp.com/)
+demo: [`https://flintstore.herokuapp.com/`](https://flintstore.herokuapp.com/)
 
 
 ## Install
 
 ```bash
-npm install --save react-cart-components
+npm install --save react-shop-cart
 ```
 
 ## Usage

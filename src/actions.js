@@ -24,12 +24,12 @@ export const removeProduct = product => ({
 
 export const updateCart = cartProducts => {
   let productQuantity = cartProducts.reduce((sum, p) => {
-    sum += p.quantity;
+    sum += parseInt(p.quantity);
     return sum;
   }, 0);
 
   let totalPrice = cartProducts.reduce((sum, p) => {
-    sum += p.price * p.quantity;
+    sum += p.price * parseInt(p.quantity);
     return sum;
   }, 0);
 
@@ -40,7 +40,7 @@ export const updateCart = cartProducts => {
 
   // we persist the cartProducts to localStorage
   storage().persist(JSON.stringify(cartProducts));
-  
+
   return {
     type: UPDATE_CART,
     payload: cartTotal
