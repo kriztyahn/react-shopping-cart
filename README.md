@@ -1,4 +1,4 @@
-# react-cart-components
+# react-shop-cart
 
 > A react shopping cart components with redux with instant updates for e-commerce applications
 
