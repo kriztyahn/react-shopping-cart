@@ -2,7 +2,7 @@
 
 > A react shopping cart components with redux with instant updates for e-commerce applications
 
-[![NPM](https://img.shields.io/npm/v/react-cart-components.svg)](https://www.npmjs.com/package/react-cart-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-shop-cart.svg)](https://www.npmjs.com/package/react-shop-cart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 This package provides several components:
 
@@ -53,7 +53,7 @@ const store = createStore(
 
 import React, { Component } from 'react'
 
-import { Cart, AddCartButton } from 'react-cart-components'
+import { Cart, AddCartButton } from 'react-shop-cart'
 
 const products = [
   {
