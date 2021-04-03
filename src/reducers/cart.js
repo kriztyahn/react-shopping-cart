@@ -3,7 +3,7 @@ import {
   ADD_PRODUCT,
   UPDATE_CART,
   REMOVE_PRODUCT
-} from "./actionTypes";
+} from "../actions/actionTypes";
 
 const initialState = {
   products: [],

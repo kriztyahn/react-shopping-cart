@@ -1,6 +1,6 @@
 {
   "name": "react-shop-cart",
-  "version": "1.0.5+ad424b68",
+  "version": "1.0.5+64ec9629",
   "description": "A simple react shopping cart",
   "author": "Christian Ballester",
   "license": "MIT",
@@ -35,8 +35,12 @@
   ],
   "dependencies": {
     "postcss-url": "^8.0.0",
-    "react-redux": "^7.0.2",
-    "redux": "^4.0.1"
+    "react": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-shop-cart": "file:.yalc/react-shop-cart",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9"
   },
   "bugs": {
     "url": "https://github.com/kriztyahn/react-shopping-cart/issues"
@@ -47,5 +51,5 @@
     "shopping",
     "cart"
   ],
-  "yalcSig": "ad424b680dafad599ee054f42f0a7613"
+  "yalcSig": "64ec9629d246af797a5036c0eb5afe7b"
 }
