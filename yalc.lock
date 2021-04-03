@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "react-shop-cart": {
+      "signature": "ad424b680dafad599ee054f42f0a7613",
+      "file": true
+    }
+  }
+}

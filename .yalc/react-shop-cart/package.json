@@ -1,0 +1,51 @@
+{
+  "name": "react-shop-cart",
+  "version": "1.0.5+ad424b68",
+  "description": "A simple react shopping cart",
+  "author": "Christian Ballester",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriztyahn/react-shopping-cart.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "predeploy": "cd example && npm install && npm run build",
+    "deploy": "gh-pages -d example/build"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-redux": "^4.0.1 || ^5.0.1 || ^6.0.0",
+    "redux": "^3.0.5 || ^4.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "postcss-url": "^8.0.0",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/kriztyahn/react-shopping-cart/issues"
+  },
+  "homepage": "https://github.com/kriztyahn/react-shopping-cart#readme",
+  "keywords": [
+    "react",
+    "shopping",
+    "cart"
+  ],
+  "yalcSig": "ad424b680dafad599ee054f42f0a7613"
+}
